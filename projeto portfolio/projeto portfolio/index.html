@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/62a353cb5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hayrab &#x1F383;</title>
+</head>
+
+<body class="light_theme" aria-label="O site está utilizando o tema light" role="body">
+        <img class="img-back" src="./imagens/background/relampago.jpg" alt="Fundo de tela">
+    <header aria-label="Cabeçalho da página.">
+            <div class="logo">
+                <img src="./imagens/background/Bats(2).jpg" alt="Logo Hayrab" >
+                <!-- Sempre que vc for usar uma imagem, não esquece de colocar a altura e a lagura, se não fica bem ruim-->
+            </div>
+
+            <div class="menu">
+                <a href="">Home </a>
+                <a href="">Sobre</a>
+                <a target="_blank" href="mailto:hayrab.arts@gmail.com">Contato</a>
+            </div>
+
+        <div class="tema">
+            <button id="switchTheme" onclick="switchTheme()">Tema</button>
+        </div>
+
+    </header>
+    <main>
+        <section class="container">
+            
+            <div class="conteudo">
+                <div class="conteudo-site">
+                    <h1>
+                        <b><em>Bom ver você meu nobre!!</em> 🐱‍💻</b>
+                    </h1>
+                    <p>
+                        Muito prazer &#x1F596; meu nome é Háyran, mas pode me chamaar de hayrab &#x1F604;, sou um designer
+                        de interação e desenvolvedor fullstack em formação, espero que se divirta aqui!!
+                    <p>
+                </div>
+                <div id="arrow">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="rodape" >
+            <div align="center">
+            <div class="redes">
+                <p> &copy; Háyran Guilherme | Fullstack Developer & Designer | hayrab.arts@gmail.com</p>
+                <div class="redes2">
+                        <a target="_blank" href="https://www.linkedin.com/in/hayran-guilherme-guedes-carvalho/"><i
+                        class="fa-brands fa-linkedin-in" aria-label="Botão Linkedin"></i></a>
+                    
+                        <a target="_blank" href="https://github.com/Hayran-Guilherme">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                   
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5514981257663" aria>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+            
+                        <a target="_blank" href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    
+                        <a target="_blank" href="">
+                            <i class="fa-brands fa-medium"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        </section>
+    </footer>
+</body>
+
+<script>
+    function switchTheme() {
+        document.body.classList.toggle('dark_theme');
+        document.body.classList.toggle('light_theme');
+    }
+</script>
+
+</html>
